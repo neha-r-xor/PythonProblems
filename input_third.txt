@@ -1,0 +1,4 @@
+101,Login button misaligned,The 'Sign In' button overlaps the 'Forgot Password' link on mobile view.,Medium
+102,Crash on Checkout,,High
+103,Broken link on FAQ,Link to payment options returns 404.,
+104,Sidebar always visible,Sidebar is sticky on all pages.,Low

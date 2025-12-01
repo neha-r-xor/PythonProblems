@@ -1,0 +1,4 @@
+Bug ID 101 : VALID
+Bug ID 102 : Error: The bug report is missing data in the following field(s): 'description'.
+Bug ID 103 : Error: The bug report is missing data in the following field(s): 'severity'.
+Bug ID 104 : VALID
