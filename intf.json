@@ -1,0 +1,203 @@
+{
+  "data": {
+    "openconfig-interfaces:interfaces": {
+      "interface": [
+        {
+          "name": "swp2",
+          "state": {
+            "type": "iana-if-type:ethernetCsmacd",
+            "mtu": 9240,
+            "name": "swp2",
+            "description": "",
+            "enabled": true,
+            "ifindex": 1003,
+            "admin-status": "UP",
+            "oper-status": "UP",
+            "last-change": "2025-11-26T10:19:21.035024-00:00",
+            "counters": {
+              "in-octets": "522517805925",
+              "in-unicast-pkts": "111579175",
+              "in-broadcast-pkts": "1",
+              "in-multicast-pkts": "591",
+              "in-discards": "3199",
+              "in-errors": "0",
+              "in-unknown-protos": 0,
+              "out-octets": "522674822135",
+              "out-unicast-pkts": "111586122",
+              "out-broadcast-pkts": "0",
+              "out-multicast-pkts": "592",
+              "out-discards": "0",
+              "out-errors": "0",
+              "arcos-openconfig-interfaces-augments:in-bits-rate": "937885960",
+              "arcos-openconfig-interfaces-augments:in-bits-rate-brief": "937.89 mbps",
+              "arcos-openconfig-interfaces-augments:in-pkts-rate": "46273",
+              "arcos-openconfig-interfaces-augments:in-pkts": "111582966",
+              "arcos-openconfig-interfaces-augments:out-bits-rate": "937886504",
+              "arcos-openconfig-interfaces-augments:out-bits-rate-brief": "937.89 mbps",
+              "arcos-openconfig-interfaces-augments:out-pkts-rate": "25034",
+              "arcos-openconfig-interfaces-augments:out-pkts": "111586714",
+              "arcos-openconfig-interfaces-augments:queue-drop-pkts": "0",
+              "arcos-openconfig-interfaces-augments:errors": {
+                "fcs-error": "0",
+                "align-error": "0",
+                "symbol-error": "0",
+                "runt-pkts": "0"
+              },
+              "arcos-openconfig-interfaces-augments:in-ipv4-discards": "0",
+              "arcos-openconfig-interfaces-augments:in-stp-discards": "0",
+              "arcos-openconfig-interfaces-augments:in-vlan-discards": "0",
+              "arcos-openconfig-interfaces-augments:in-tcam-discards": "0",
+              "arcos-openconfig-interfaces-augments:in-policy-discards": "0",
+              "arcos-openconfig-interfaces-augments:carrier-transitions": "1",
+              "arcos-openconfig-interfaces-augments:giant-pkts": "94644134",
+              "arcos-openconfig-interfaces-augments:in-mtu-exceeded-discards": "0",
+              "arcos-openconfig-interfaces-augments:in-64-octet-pkts": "2799",
+              "arcos-openconfig-interfaces-augments:in-65to127-octet-pkts": "28947",
+              "arcos-openconfig-interfaces-augments:in-128to255-octet-pkts": "1374366",
+              "arcos-openconfig-interfaces-augments:in-256to511-octet-pkts": "3148463",
+              "arcos-openconfig-interfaces-augments:in-512to1023-octet-pkts": "6295936",
+              "arcos-openconfig-interfaces-augments:in-1024to1518-octet-pkts": "6085122",
+              "arcos-openconfig-interfaces-augments:in-1519to2047-octet-pkts": "6501410",
+              "arcos-openconfig-interfaces-augments:in-2048to4095-octet-pkts": "25162832",
+              "arcos-openconfig-interfaces-augments:in-4096to9216-octet-pkts": "62781382",
+              "arcos-openconfig-interfaces-augments:in-9217to16383-octet-pkts": "198510",
+              "arcos-openconfig-interfaces-augments:out-64-octet-pkts": "1",
+              "arcos-openconfig-interfaces-augments:out-65to127-octet-pkts": "23505",
+              "arcos-openconfig-interfaces-augments:out-128to255-octet-pkts": "1372432",
+              "arcos-openconfig-interfaces-augments:out-256to511-octet-pkts": "3148462",
+              "arcos-openconfig-interfaces-augments:out-512to1023-octet-pkts": "6295936",
+              "arcos-openconfig-interfaces-augments:out-1024to1518-octet-pkts": "6085122",
+              "arcos-openconfig-interfaces-augments:out-1519to2047-octet-pkts": "6501410",
+              "arcos-openconfig-interfaces-augments:out-2048to4095-octet-pkts": "25162832",
+              "arcos-openconfig-interfaces-augments:out-4096to9216-octet-pkts": "62781382",
+              "arcos-openconfig-interfaces-augments:out-9217to16383-octet-pkts": "215632"
+            },
+            "openconfig-vlan:tpid": "openconfig-vlan-types:TPID_0X8100",
+            "arcos-openconfig-interfaces-augments:load-interval": 30,
+            "arcos-openconfig-interfaces-augments:media-type": "FIBER",
+            "arcos-openconfig-interfaces-augments:unit": 0,
+            "arcos-openconfig-interfaces-augments:core": 0,
+            "arcos-openconfig-interfaces-augments:module-type": "400G_AOC",
+            "arcos-openconfig-interfaces-augments:fec": "rs-544-2xn",
+            "arcos-openconfig-interfaces-augments:fec-corrected-errors": "0",
+            "arcos-openconfig-interfaces-augments:fec-uncorrected-errors": "0",
+            "arcos-openconfig-interfaces-augments:pre-fec-ber": "0.00e+00",
+            "arcos-openconfig-interfaces-augments:speed-group": 2,
+            "arcos-openconfig-interfaces-augments:breakout": true,
+            "arcos-openconfig-interfaces-augments:parent-port": 2,
+            "arcos-openconfig-interfaces-augments:paired-port": 0,
+            "arcos-openconfig-interfaces-augments:mac-learning": true,
+            "arcos-openconfig-interfaces-augments:custom-mac": false,
+            "arcos-openconfig-interfaces-augments:link-training": false,
+            "arcos-openconfig-interfaces-augments:time-elapsed-since-last-change": "0d 01:05:46",
+            "arcos-openconfig-interfaces-augments:debounce-interval": {
+              "up": 0,
+              "down": 0
+            },
+            "arcos-openconfig-vlan-augments:egress-default-tpid": "openconfig-vlan-types:TPID_0X8100"
+          },
+          "subinterfaces": {
+            "subinterface": [
+              {
+                "index": 0,
+                "state": {
+                  "index": 0,
+                  "name": "swp2",
+                  "description": "",
+                  "enabled": true,
+                  "ifindex": 1003,
+                  "admin-status": "UP",
+                  "oper-status": "UP",
+                  "last-change": "2025-11-26T10:19:21.035024-00:00",
+                  "counters": {
+                    "in-octets": "1273650",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": 0,
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0",
+                    "arcos-openconfig-interfaces-augments:in-bits-rate": "2128",
+                    "arcos-openconfig-interfaces-augments:in-bits-rate-brief": "2.13 kbps",
+                    "arcos-openconfig-interfaces-augments:in-pkts-rate": "3",
+                    "arcos-openconfig-interfaces-augments:in-pkts": "18225",
+                    "arcos-openconfig-interfaces-augments:out-bits-rate": "0",
+                    "arcos-openconfig-interfaces-augments:out-bits-rate-brief": "0 bps",
+                    "arcos-openconfig-interfaces-augments:out-pkts-rate": "0",
+                    "arcos-openconfig-interfaces-augments:out-pkts": "0"
+                  },
+                  "arcos-openconfig-interfaces-augments:network-instance": "default",
+                  "arcos-openconfig-interfaces-augments:urpf-mode": "none",
+                  "arcos-openconfig-interfaces-augments:priority-vlan": false,
+                  "arcos-openconfig-if-ip-augments:dynamic": {
+                    "ipv6-link-local": "fe80::5e07:58ff:fe27:6232"
+                  }
+                },
+                "openconfig-if-ip:ipv6": {
+                  "state": {
+                    "arcos-openconfig-if-ip-augments:neighbor-timeout": 14400,
+                    "arcos-openconfig-if-ip-augments:neighbor-cache-limit": 0,
+                    "arcos-openconfig-if-ip-augments:neighbor-cache-count": 0
+                  },
+                  "arcos-openconfig-if-ip-augments:router-advertisement": {
+                    "state": {
+                      "interval": 600,
+                      "lifetime": 1800,
+                      "suppress": false,
+                      "virtual-router-only": false,
+                      "managed-config-flag": false,
+                      "other-config-flag": false
+                    }
+                  }
+                },
+                "openconfig-if-ip:ipv4": {
+                  "addresses": {
+                    "address": [
+                      {
+                        "ip": "120.1.3.1",
+                        "state": {
+                          "ip": "120.1.3.1",
+                          "prefix-length": 30,
+                          "origin": "STATIC",
+                          "arcos-openconfig-if-ip-augments:label-index": 4294967295,
+                          "arcos-openconfig-if-ip-augments:secondary": [null]
+                        }
+                      }
+                    ]
+                  },
+                  "state": {
+                    "arcos-openconfig-if-ip-augments:neighbor-timeout": 14400,
+                    "arcos-openconfig-if-ip-augments:neighbor-cache-limit": 0,
+                    "arcos-openconfig-if-ip-augments:neighbor-cache-count": 1
+                  }
+                }
+              }
+            ]
+          },
+          "openconfig-if-ethernet:ethernet": {
+            "state": {
+              "mac-address": "5C:07:58:27:62:32",
+              "auto-negotiate": false,
+              "port-speed": "openconfig-if-ethernet:SPEED_UNKNOWN",
+              "hw-mac-address": "5C:07:58:27:62:32",
+              "effective-speed": 400000,
+              "arcos-openconfig-if-ethernet-augments:effective-fec": "rs-544-2xn"
+            }
+          },
+          "arcos-openconfig-interfaces-augments:damping": {
+            "state": {
+              "enabled": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
